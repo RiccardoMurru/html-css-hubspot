@@ -2,3 +2,53 @@
   box-sizing: border-box;
   margin: 0;
 }
+
+.container {
+  width: 80%;
+  margin: 0 auto;
+}
+
+.container-small {
+  width: 70%;
+  margin: 0 auto;
+}
+
+.clearfix::after {
+  content: '';
+  display: table;
+  clear: both;
+}
+
+.float {
+  float: left;
+  padding: 10px;
+}
+
+.w100 {
+  width: 100%;
+}
+
+.w50 {
+  width: 50%;
+}
+
+.w3 {
+  width: calc(100% / 3);
+}
+
+.w25 {
+  width: 25%
+}
+.test {
+  width: 100%;
+  height: 150px;
+  background: grey;
+}
+
+.main-header {
+  background-image: url('../img/jumbotron.png');
+}
+
+.main-footer {
+  background: #32495b;
+}
