@@ -81,6 +81,11 @@ body {
   background: #fe775b;
   color: #fff;
 }
+
+.btn-large {
+  padding: 25px 35px;
+}
+
 .test {
   width: 100%;
   height: 150px;
@@ -89,8 +94,13 @@ body {
 
 /* Header */
 .main-header {
+  position: relative;
+  height: 756px;
   background-color: #fff;
-  background-image: url('../img/jumbotron.png');
+  background-image: url(../img/jumbotron.png);
+  background-repeat: no-repeat;
+  background-position: 30% 100%;
+  background-size: 100% 86.8%;
   margin-top: 100px;
 }
 
@@ -132,6 +142,29 @@ body {
   padding-left: 10px;
 }
 
+/* Jumbotron */
+.jumbotron {
+  padding-top: 100px;
+}
+
+.jumbotron-heading {
+  font-size: 25px;
+  margin-bottom: 20px;
+}
+
+.jumbotron-content p {
+  line-height: 25px;
+  margin-bottom: 30px;
+}
+
+.jumbotron-content a {
+  margin-bottom: 30px;
+}
+
+.jumbotron-content span {
+  display: block;
+  font-size: 12px;
+}
 /* Main */
 
 
