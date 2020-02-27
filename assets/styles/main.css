@@ -89,15 +89,20 @@ body {
 
 /* Header */
 .main-header {
+  background-color: #fff;
   background-image: url('../img/jumbotron.png');
+  margin-top: 100px;
 }
 
+/* Fixed bar */
 .fixedbar {
   position: fixed;
+  top: 0;
   width: 100%;
   background: #f4f9fd;
   height: 100px;
   padding: 20px 10%;
+  border-bottom: 1px solid #32495b;
 }
 
 .fixedbar-content.right i,
@@ -109,10 +114,22 @@ body {
   color: #1aa9c1;
 }
 
-
 .fixedbar-content .fa-chevron-down::after {
   content: '|';
   padding: 0 20px;
+}
+
+/* Menu bar */
+.menu-bar {
+  background: #fff;
+  height: 100px;
+  padding-top: 20px;
+}
+
+.menu a {
+  text-decoration: none;
+  color: #32495b;
+  padding-left: 10px;
 }
 
 /* Main */
