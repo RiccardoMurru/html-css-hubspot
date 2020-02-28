@@ -347,6 +347,10 @@ p {
 }
 
 /* Customer section */
+.cust-section {
+  margin-bottom: 80px;
+}
+
 .customer-content-text {
   width: 200px;
 }
@@ -369,6 +373,23 @@ p {
 .customer-content-logos2 img {
   max-width: 100%;
   vertical-align: middle;
+}
+
+/* Start growing section */
+.st-gr-bg {
+  height: 400px;
+  background-image: url('../img/Woman.webp');
+  background-size: contain;
+  background-repeat: no-repeat;
+  background-position: right;
+}
+
+.st-gr-content h2 {
+  font-size: 40px;
+}
+
+.st-gr-content span {
+  font-size: 12px;
 }
 
 
