@@ -68,6 +68,10 @@ body {
   text-align: center;
 }
 
+.pad0 {
+  padding: 0
+}
+
 .mg-btm30 {
   margin-bottom: 30px
 }
@@ -290,6 +294,57 @@ p {
   padding-bottom: 70px;
 }
 
+/* Growth section */
+.gradient {
+  background-image: linear-gradient(to right, #00a7bb, #01bca6);
+  padding-bottom: 80px;
+}
+
+.growth-content {
+  color: #fff;
+  margin-top: 30px;
+}
+
+.square {
+  height: 200px;
+  padding-top: 30px;
+  border: 1px solid #fff;
+  color: #fff;
+}
+
+.square-top {
+  border-top-style: none;
+}
+
+.square-btm {
+  border-bottom-style: none;
+}
+
+.square-left {
+  border-left-style: none;
+}
+
+.square-right {
+  border-right-style: none;
+}
+
+.square img,
+.square h3,
+.square span {
+  padding: 5px 0;
+}
+
+.square h3 {
+  position: relative;
+  font-size: 40px;
+}
+
+.psel::after {
+  position: absolute;
+  top: 30%;
+  content: '+';
+  font-size: 20px;
+}
 /* Footer */
 .main-footer {
   background: #32495b;
