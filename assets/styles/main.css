@@ -345,6 +345,33 @@ p {
   content: '+';
   font-size: 20px;
 }
+
+/* Customer section */
+.customer-content-text {
+  width: 200px;
+}
+
+.customer-content-text em {
+  font-style: normal;
+  font-weight: 700;
+}
+.customer-content-text span {
+  font-size: 40px;
+  font-weight: 700;
+}
+
+.customer-content-logos1,
+.customer-content-logos2 {
+  height: 50px;
+}
+
+.customer-content-logos1 img,
+.customer-content-logos2 img {
+  max-width: 100%;
+  vertical-align: middle;
+}
+
+
 /* Footer */
 .main-footer {
   background: #32495b;
