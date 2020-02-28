@@ -44,6 +44,10 @@ body {
   width: calc(90% / 3);
 }
 
+.w20 {
+  width: 20%;
+}
+
 .w25 {
   width: 25%;
 }
@@ -104,6 +108,16 @@ body {
 
 .btn-large {
   padding: 25px 35px;
+}
+
+.link-btn-list {
+  text-decoration: none;
+  color: #32495b;
+}
+
+.btn-list {
+  background: #dadee0;
+  border-style: none;
 }
 
 .shadow-box {
@@ -392,8 +406,67 @@ p {
   font-size: 12px;
 }
 
-
 /* Footer */
+/* Footer list */
 .main-footer {
   background: #32495b;
+  color: #bbc6d3;
+}
+
+.footer-list {
+  margin-bottom: 50px;
+}
+
+.footer-list h3 {
+  color: #fff;
+  margin-top: 30px;
+}
+
+.footer-list ul {
+  list-style: none;
+  padding: 20px 0;
+}
+
+.footer-list li {
+  padding: 10px 0;
+}
+
+.footer-list a {
+  text-decoration: none;
+  color: #bbc6d3;
+}
+
+#support-btn {
+  color: #32495b;
+}
+
+/* Footer languages */
+.languages a {
+  text-decoration: none;
+  padding: 0 20px;
+  color: #bbc6d3;
+}
+
+.languages {
+  padding-bottom: 20px;
+  border-bottom: 1px solid #bbc6d3;
+}
+
+/* Footer logo - disclaimer */
+.footer-logo img {
+  display: block;
+  background: #728ca5;
+  border-radius: 5px;
+  padding: 5px 5px;
+}
+
+.footer-logo span {
+  color: #fff;
+  padding: 10px 0;
+}
+
+.footer-disclaimer a {
+  text-decoration: none;
+  color: #bbc6d3;
+  padding: 0 20px;
 }
